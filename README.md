@@ -1,6 +1,6 @@
 # gd-account-harvester
 Usage:
-- Account Scraper / Harvester:
+- Account scraper / harvester:
     - `./accharvester --scrape-users [ID to enumerate from] [Workers]`
     - Usernames will be outputed to the terminal or console.
 - Brute force:
