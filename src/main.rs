@@ -188,7 +188,7 @@ fn main() -> Result<(), Box<dyn error::Error>> {
                 }
                 let scraper = Scraper::arc();
                 let usernames = Scraper::read(&args[2])?;
-                let passwords= Scraper::read(&args[3])?;
+                let passwords = Scraper::read(&args[3])?;
                 let un_workers: i32 = args[4].parse()?;
                 scraper.brute_login(usernames, passwords, un_workers);
             },
