@@ -1,7 +1,5 @@
 // Too much cloning and too many runtimes
 
-#![feature(async_closure)]
-
 extern crate reqwest;
 extern crate rand;
 extern crate num_cpus;
