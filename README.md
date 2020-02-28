@@ -6,4 +6,4 @@ Usage:
     - Usernames will be outputed to the terminal or console.
 - Brute force:
     - `./accharvester --brute-login [Username File] [Password File] [Workers]`
-    - Password:Username combos will be output to the terminal or console.
+    - Password:Username combos will be outputed to the terminal or console.
