@@ -1,0 +1,12 @@
+[package]
+name = "accscraper"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.10.3"
+rand = "0.7.3"
+tokio = "0.2.12"
+num_cpus = "1.8.0"
+threadpool = "1.7.1"
