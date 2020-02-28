@@ -1,5 +1,4 @@
 # gd-account-harvester
-Compile with: `cargo build` \
 Usage:
 - Account Scraper / Harvester:
     - `./accharvester --scrape-users [ID to enumerate from] [Workers]`
