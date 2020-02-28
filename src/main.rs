@@ -174,7 +174,7 @@ fn main() -> Result<(), Box<dyn error::Error>> {
         match args[1].as_ref() {
             "--scrape-users" => {
                 if args.len() != 4 {
-                    println!("Usage: ./accscraper --scrape-users [FromID] [Workers]");
+                    println!("Usage: ./accharvester --scrape-users [FromID] [Workers]");
                 } else {
                     let scraper = Scraper::arc();
                     let from_id: i32 = args[2].parse()?;
@@ -184,7 +184,7 @@ fn main() -> Result<(), Box<dyn error::Error>> {
             },
             "--brute-login" => {
                 if args.len() != 5 {
-                    println!("Usage: ./accscraper --brute-login [Usernames] [Passwords] [UsernameWorkers]")
+                    println!("Usage: ./accharvester --brute-login [Usernames] [Passwords] [UsernameWorkers]")
                 }
                 let scraper = Scraper::arc();
                 let usernames = Scraper::read(&args[2])?;
@@ -197,7 +197,7 @@ fn main() -> Result<(), Box<dyn error::Error>> {
             }
         }
     } else {
-        println!("./accscraper [--scrape-users|--brute-login]")
+        println!("./accharvester [--scrape-users|--brute-login]")
     }
     Ok(())
 }
