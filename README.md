@@ -8,5 +8,5 @@ Usage:
     - Password:Username combos will be outputed to the terminal or console.
 
 You can also use the filter \<username\> in your password list like so:
-commonpass123
-<username>123
+commonpass123 \
+\<username\>123
