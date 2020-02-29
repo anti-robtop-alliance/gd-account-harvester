@@ -7,4 +7,4 @@ Usage:
     - `./accharvester --brute-login [Username file] [Password file] [Workers]`
     - Password:Username combos will be outputed to the terminal or console.
 
-You can also use the filter <username> in your password list.
+You can also use the filter \<username\> in your password list.
