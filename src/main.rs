@@ -43,7 +43,7 @@ impl Scraper {
             .collect::<Vec<String>>())
     }
 
-    /// Generates a random IP for XFF. Gen. array of values between 0-255 and join it with "."
+    /// Generates a random IP for XFF. Gen. an array of values between 0-255 and joins it with "."
     fn random_ip(&self) -> String {
         (0..4).map(|_| rand::thread_rng()
             .gen_range(0, 255)
