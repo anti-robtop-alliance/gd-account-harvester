@@ -18,8 +18,6 @@ use std::{
     fs::File,
     sync::Arc
 };
-use std::time::Duration;
-use std::thread;
 
 struct Scraper;
 
