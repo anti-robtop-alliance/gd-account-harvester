@@ -1,4 +1,5 @@
 # gd-account-harvester
+An account harvester / account scraper for the game Geometry Dash.
 Usage:
 - Account scraper / harvester:
     - `./accharvester --scrape-users [ID to enumerate from] [Workers]`
