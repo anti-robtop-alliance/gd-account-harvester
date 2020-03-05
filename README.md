@@ -10,3 +10,5 @@ Usage:
 You can also use the filter \<username\> in your password list like so: \
 commonpass123 \
 \<username\>123
+
+It is also advised that you do not use a large password list as that may or may not slow down the program.
