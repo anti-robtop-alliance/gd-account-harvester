@@ -1,3 +1,4 @@
+// TODO: use reqwest::blocking
 // Too much cloning and too many runtimes
 
 extern crate reqwest;
